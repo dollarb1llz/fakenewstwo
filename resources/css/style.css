@@ -42,14 +42,14 @@ html, body {
     margin-left: 13px;
   }
   .column, .article, .content {
-    border: 1px solid black;
+
   }
   main {
     display: flex;
     position: relative;
-    top: 100px;
+    top: 150px;
     justify-content: space-around;
-    margin-bottom: 60px;
+    bottom: 150px;
   }
 .column {
   display: flex;
@@ -95,4 +95,41 @@ html, body {
   background-image: url('../images/img-story-1.png');
   background-size: cover;
   font-size: 30px;
+}
+.theory {
+  display: flex;
+  height: 700px;
+  width: auto;
+  flex-direction: row;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+.theory .article {
+  width: auto;
+  height: auto;
+  margin: 20px 20px;
+  position: relative;
+}
+.theory .article .content {
+  width: auto;
+  position: relative;
+  margin: 10px auto;
+  min-height: 290px;
+}
+.content h1 {
+  width: auto;
+  position: relative;
+  margin: 10px auto;
+  min-height: 120px;
+}
+.content p {
+  width: auto;
+  position: relative;
+  margin: 20px auto;
+}
+.theory .article .title {
+  width: auto;
+  position: relative;
+  margin: 40px auto;
+  text-align: center;
 }
